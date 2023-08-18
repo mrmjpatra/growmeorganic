@@ -16,6 +16,7 @@ function App() {
             <Route path="/" element={<Register />} />
             <Route path="/register" element={<Register />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="*" element={<h1>Page not found</h1>} />
           </Routes>
         </BrowserRouter>
       </div>
